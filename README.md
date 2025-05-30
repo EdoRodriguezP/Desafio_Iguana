@@ -1,99 +1,68 @@
 # Desafio_Iguana
 Desafio Boot Camp
 
-Desafío - Iguana page
+# Desafío Boot Camp - Iguana Page
 
-● Para realizar este desafío debes haber estudiado previamente todo el material
-disponible en el LMS correspondiente a la unidad.
+## Habilidades a Evaluar
 
-● Una vez terminado el desafío, comprime la carpeta que contiene el desarrollo de los
-requerimientos solicitados y sube el .zip en el LMS.
+* Aplicar etiquetas semánticas HTML5 para estructurar contenido web
+* Implementar selectores CSS (id, clase, etiqueta)
+* Aplicar estilos CSS para:
+  - Texto y tipografía
+  - Colores y fondos
+  - Modelo de cajas
+  - Display y alineación
+  - Unidades de medida
 
-● Puntaje total: 10 puntos.
+## Recursos Necesarios
 
-Habilidades a evaluar
+### Tipografías
+* **Raleway** (Google Fonts)
+  - Light (300)
+  - Medium (500)
 
-● Aplicar las etiquetas semánticas de HTML5, para agrupar el contenido, darle sentido
-y forma a las diferentes secciones que componen la página web.
+### Paleta de Colores
+* `#000000` (Negro)
+* `#ffffff` (Blanco)
+* `#1e1a13` (Marrón oscuro)
 
-● Emplear adecuadamente los selectores para definir reglas por id, clase y/o etiqueta,
-en los archivos de estilo CSS.
+### Iconos (Font Awesome)
+* `far fa-eye`
+* `fab fa-hand-peace`
+* `fas fa-paint-brush`
 
-● Implementar estilos CSS texto, color, fondo, alineación, imágenes y el modelo de
-cajas, para la definición de aspectos visuales de una interfaz web.
+## Requerimientos
 
-● Implementar estilos CSS, utilizando el modelo de cajas y las propiedades display,
-unidades de medida y estilos tipográficos avanzados, para la definición de aspectos
-visuales de una interfaz web.
+### 1. Estructura de Carpetas (1 Punto)
+```
+/
+├── assets/
+│   ├── img/
+│   └── css/
+│       └── style.css
+└── index.html
+```
 
-● Implementa estilos CSS, utilizando las propiedades display, unidades de medida y
-estilos tipográficos, para la definición de aspectos visuales de una interfaz web.
+### 2. Etiquetas Semánticas
+* Usar etiquetas HTML5 apropiadas para cada sección
 
-Descripción
+### 3. Clases Específicas
+* `.desc-section` - Sección de descripción (1 Punto)
+  - Color de fondo: `#1e1a13`
+* `.footer` - Sección final (1 Punto)
+  - Estilos específicos para elementos
+* `.icons-section` - Sección de íconos (1 Punto)
+  - Color de fondo: `#1e1a13`
+* Elementos base
+  - `h1`, `h2`, `p` con colores especificados (1 Punto)
 
-Aplicando todos los conceptos y herramientas aprendidas en los capítulos de esta sesión y
-utilizando la siguiente maqueta, se pide construir una página web, de acuerdo a los
-requisitos expuestos a continuación:
+### 4. Tipografía
+* Familia: Raleway
+* Pesos: 300 (Light), 500 (Medium)
+* Tamaños según diseño
 
+### 5. Estilos Generales
+* Seguir maqueta proporcionada
+* Mantener consistencia visual
+* Implementar responsive design
 
-Tipografías:
-
-● Raleway (sacar desde Google Fonts).
-
-font-weight:
-
-● Raleway Light (300).
-
-● Raleway Medium (500).
-
-Colores:
-
-● #000000.
-
-● #ffffff.
-
-● #1e1a13.
-
-Iconos (Font Awesome):
-
-● far fa-eye.
-
-● fab fa-hand-peace.
-
-● fas fa-paint-brush.
-
-Requerimientos
-
-1. Estructura de carpeta. (1 Punto)
-
-● /assets/img para las imágenes.
-
-● /assets/css/style.css para el archivo CSS.
-
-● /index.html para la vista principal.
-
-2. Etiquetas semánticas: Utilizar correctamente las etiquetas semánticas para definir
-las distintas secciones de la página. (1 Punto)
-
-3. Clases específicas: Se evaluarán colores de fondo y/o color de elementos, pero el
-evaluador sólo los podrá comprobar si existen las siguientes clases:
-
-● desc-section (En la sección de descripción), debes utilizar el color de fondo
-correcto e indicarlo en formato hexadecimal. (1 Punto)
-
-● footer (En la sección final), debes utilizar el color específico para los
-elementos de esta sección. (1 Punto)
-
-● Los elementos h1, h2 y p de tu página deben tener el color indicado. (1 Punto)
-
-● icons-section (En la sección de íconos), debes utilizar el color de fondo
-correcto e indicarlo en formato hexadecimal. (1 Punto)
-
-● Debes utilizar los íconos mencionados, con sus respectivas clases de
-font-awesome. (1 Punto)
-
-4. Fuentes y tamaños: Debes usar la fuente Raleway, con sus respectivos pesos
-(font-weight) y tamaños (font-size), donde corresponda. (1 Puntos)
-
-5. Aplicar los estilos necesarios para que la página web sea similar a la presentada en
-la maqueta. (2 Puntos)
